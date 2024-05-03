@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "865423816542",
+    "project_id": "opsc-part-two-poe",
+    "storage_bucket": "opsc-part-two-poe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865423816542:android:80cc6a0a2d2eba1ad341cf",
+        "android_client_info": {
+          "package_name": "com.example.opscparttwopoe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgHm3n5zHlTl2kppWUT4J4YOtJEf11sIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

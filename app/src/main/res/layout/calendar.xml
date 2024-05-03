@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/myDate"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Mark Your Meeting Date"
+        android:textColor="#FFF"
+        android:textSize="23sp"/>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-110dp"
+        android:background="#FFF" />
+
+    <Button
+        android:id="@+id/saveDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Save My Date" />
+
+    <EditText
+        android:id="@+id/timeInput"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/navy"
+        android:ems="10"
+        android:inputType="time"/>
+
+    <Button
+        android:id="@+id/saveTimeButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/blue"
+        android:text="Save Time" />
+
+</LinearLayout>

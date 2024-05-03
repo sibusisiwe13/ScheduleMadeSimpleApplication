@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Chats">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/messages"
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:scrollbars="vertical"
+        tools:ignore="UnknownId" />
+    <RelativeLayout
+        android:id="@+id/messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#89C"
+        android:padding="8dp">
+
+     <EditText
+         android:id="@+id/chatstxt"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_toLeftOf="@+id/sendbtn"
+         android:layout_toStartOf="@+id/sendbtn"
+         android:hint="Type Here..."
+         android:inputType="textMultiLine"
+         android:maxLines="10"
+         android:minLines="1"
+         android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/sendbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text=">"/>
+    </RelativeLayout>
+</RelativeLayout>
+
+
+
