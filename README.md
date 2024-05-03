@@ -2,6 +2,8 @@
 
 ![Alt Text](https://github.com/sibusisiwe13/ScheduleMadeSimpleApplication/blob/master/sms.jpg)
 
+Group Members:ST10083669(Aphiwe Langalethu Mbonambi), ST10083915(Sibusisiwe Sbahle Kunene), ST10116698 (Siyabonga Avumile Baqwa), ST10083777 (Nomfundo Lindelwa Mthabela)
+
 Welcome to the Schedule Made Simple (SMS) Time Tracking App! This application is designed to streamline your project management by helping you track your time effectively. Below is an overview of the app's features and functionalities:
 
 ## Chats 🗨️
