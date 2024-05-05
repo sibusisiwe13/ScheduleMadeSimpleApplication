@@ -2,7 +2,7 @@
 
 ![Alt Text](https://github.com/sibusisiwe13/ScheduleMadeSimpleApplication/blob/master/sms.jpg)
 
-Demo Link:https://youtu.be/v-gKzvhuQI4
+Demo-Link:https://youtu.be/v-gKzvhuQI4
 
 Group Members:ST10083669(Aphiwe Langalethu Mbonambi), ST10083915(Sibusisiwe Sbahle Kunene), ST10116698 (Siyabonga Avumile Baqwa), ST10083777 (Nomfundo Lindelwa Mthabela)
 
